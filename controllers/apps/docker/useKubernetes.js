@@ -7,6 +7,7 @@ const loadConfig = require('../../../utils/loadConfig');
 
 const gatewayRoutes = [
   { type: 'httproutes', version: 'v1' },
+  { type: 'httproutes', version: 'v1beta1' },
   { type: 'tcproutes', version: 'v1alpha2' },
    { type: 'grpcroutes', version: 'v1alpha2' },
    { type: 'tlsroutes', version: 'v1alpha2' },
